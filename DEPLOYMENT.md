@@ -9,7 +9,7 @@
 
 2. **Import Your Project**
    - Click "Add New Project"
-   - Import your `Hands-Free` repository from GitHub
+   - Import your `MotionPad` repository from GitHub
    - Vercel will auto-detect Next.js settings
 
 3. **Configure Environment Variables**
@@ -73,7 +73,7 @@
 2. **Create New Project**
    - Click "New Project"
    - Select "Deploy from GitHub repo"
-   - Choose your `Hands-Free` repository
+   - Choose your `MotionPad` repository
 
 3. **Configure Build Settings**
    - Railway auto-detects Next.js
@@ -139,8 +139,8 @@
 
 3. **Build and run**:
    ```bash
-   docker build -t hands-free .
-   docker run -p 3000:3000 -e ANTHROPIC_API_KEY=your_key hands-free
+   docker build -t motionpad .
+   docker run -p 3000:3000 -e ANTHROPIC_API_KEY=your_key motionpad
    ```
 
 ---
